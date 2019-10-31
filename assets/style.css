@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Inconsolata:300,400,500,600&display=swap');
+.navbar {
+    background: rgb(20, 92, 140) !important;
+}
+
+.navbar a:not(.dropdown-item):not(.navbar-brand) {
+    color: hsla(227, 8%, 77%, 0.75) !important;
+    font-weight: 500;
+}
+
+.navbar .nav-item.active a:not(.dropdown-item) {
+    color: hsla(0, 0%, 95%, 1) !important;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: whitesmoke !important;
+    font-family: 'Inconsolata', system-ui;
+    letter-spacing: .3rem;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    border-top: 2px solid #CFD8DC;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    background: whitesmoke;
+    font-family: 'Inconsolata', system-ui;
+    color: #424242;
+}
+
+.border {
+    border-width: 3px !important;
+    border-color: rgb(0, 60, 255) !important;
+}
+
+h5 {
+    font-size: 2rem !important;
+    font-weight: 600;
+}
+
+h4 {
+    color: #424242;
+}
